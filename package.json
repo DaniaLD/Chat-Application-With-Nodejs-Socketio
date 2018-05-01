@@ -1,0 +1,16 @@
+{
+  "name": "chat-application-with-nodejs-socketio",
+  "version": "1.0.0",
+  "description": "A Chat Application With Node.js & Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danial Dabirian",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
