@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.card {
+    height: 60vh;
+    margin-top: 2%;
+}
+
+.inputs {
+    margin-top: 2%;
+}
+
+.inputs input {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding: 0.75em;
+}
+
+.btn {
+    margin-bottom: 2%;
+}
