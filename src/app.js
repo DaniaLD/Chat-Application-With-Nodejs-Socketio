@@ -17,6 +17,10 @@ const io = socket(http);
 
 io.on('connection', socket => {
     console.log(`A new user connected, Online users: ${socket.conn.server.clientsCount}`);
+    
+    socket.on('chat', data => {
+        io.sockets.emit('chat', data);
+    });
 
     socket.on('disconnect', () => {
         console.log(`A user disconnected, Online users: ${socket.conn.server.clientsCount}`);
