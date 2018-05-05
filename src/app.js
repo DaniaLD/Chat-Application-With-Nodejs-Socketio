@@ -22,6 +22,10 @@ io.on('connection', socket => {
         io.sockets.emit('chat', data);
     });
 
+    socket.on('typing', data => {
+        socket.broadcast.emit('typing', data);
+    });
+
     socket.on('disconnect', () => {
         console.log(`A user disconnected, Online users: ${socket.conn.server.clientsCount}`);
     });
