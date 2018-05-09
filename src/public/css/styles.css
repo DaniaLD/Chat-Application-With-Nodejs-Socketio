@@ -4,9 +4,15 @@
     border: 0;
 }
 
+body {
+    background: #262626;
+}
+
 .card {
     height: 60vh;
     margin-top: 2%;
+    border: 5px solid #ffc107;
+    background: #aaaaaa;    
 }
 
 .inputs {
@@ -18,8 +24,18 @@
     border-radius: 5px;
     margin-bottom: 2%;
     padding: 0.75em;
+    border: 5px solid #ffc107;
+    background: #aaaaaa;    
 }
 
 .btn {
     margin-bottom: 2%;
+}
+
+#feedback {
+    color: #ffc107;
+}
+
+#feedback p {
+    margin-top: 5vh;
 }
